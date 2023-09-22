@@ -92,19 +92,6 @@ Tests are currently using [jest](https://jestjs.io/) to run so if you want to de
 - (Use VSCode) Config should look close to this:
 
 ```json
-...
-    "configurations": [
-      {
-          "localRoot": "${workspaceFolder}/packages/provider", //change this depending on what test you're debugging
-          "remoteRoot": "${workspaceFolder}/packages/provider", //change this depending on what test you're debugging
-          "type": "node",
-          "request": "attach",
-          "name": "Attach to Server on 9229",
-          "address": "127.0.0.1",
-          "port": 9229
-      }
-  ]
-```
 
 ## Contributing
 
